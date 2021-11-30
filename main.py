@@ -4,7 +4,7 @@ import numpy as np
 def readfile(filename):
    new_arr = []
 
-   with open("test.txt", 'r') as file:
+   with open(filename, 'r') as file:
       l_count = sum(1 for line in file)
       file.seek(0)
 
